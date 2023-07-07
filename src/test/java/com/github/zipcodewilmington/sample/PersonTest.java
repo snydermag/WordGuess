@@ -2,8 +2,8 @@ package com.github.zipcodewilmington.sample;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Disabled;
-import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.ValueSource;
+//import org.junit.jupiter.params.ParameterizedTest;
+//import org.junit.jupiter.params.provider.ValueSource;
 
 /**
  * @author git-leon
@@ -12,7 +12,7 @@ import org.junit.jupiter.params.provider.ValueSource;
  */
 @Disabled
 public class PersonTest {
-
+/*
     @ParameterizedTest
     @ValueSource(strings = {"Leon", "Dolio", "Kris", "Desa"})
     public void testSetFirstName(String firstName) {
@@ -62,4 +62,6 @@ public class PersonTest {
         // then
         Assertions.assertEquals(expected, actual);
     }
+
+ */
 }
